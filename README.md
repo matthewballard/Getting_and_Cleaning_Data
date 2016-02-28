@@ -1,0 +1,3 @@
+
+
+_run_analysis.R_ downloads the data set from [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). It then combines the training and test data sets into one data set. It extracts the measurements that are on the mean or standard deviation for erach available measurement, and applies the appropriate activity and measurement labels to the data, and outputs a tidy dataset with the average of each variable for each activty by subject. This data set is named 'cleaned_averages_data.txt'.
